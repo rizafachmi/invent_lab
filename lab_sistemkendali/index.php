@@ -117,6 +117,7 @@ $data_lab = mysqli_fetch_array($query_lab);
                                             <td><?php echo $data["jumlah_alat"]; ?></td>
                                             <td><?php echo $data["status_alat"]; ?></td>
                                             <td><?php echo $data["keterangan"]; ?></td>
+                                            <td><?php echo $data["status_pinjam"]; ?></td>
                                             <td>
                                                 <a href="edit_barang.php?id_alat=<?php echo $data['id_alat']; ?>"><button class="btn btn-primary">Edit</button></a>
                                                 <a href="delete-process.php?id_alat=<?php echo $data['id_alat']; ?>"><button class="btn btn-primary">Delete</button></a>
